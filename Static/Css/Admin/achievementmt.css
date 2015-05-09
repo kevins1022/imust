@@ -1,0 +1,15 @@
+
+#achievementmt { width:98%; }
+#achievementmttop { margin-top:10px; width:100%; height:90px; }
+#achievementmttop table { width:530px; float:left; }
+#achievementmttop table tr { height:35px; }
+#submit { padding-top:10px; }
+#submits { margin-top:18px; }
+.studentaddsub { margin-left:20px; }
+
+#tablecontent { width:100%; }
+.tablecontentsub { float:left; }
+.tablecontentpage { float:right; margin-top:12px; }
+
+
+table, tr, td { border:0px solid #000;; }

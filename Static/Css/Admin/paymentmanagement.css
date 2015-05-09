@@ -1,0 +1,14 @@
+
+#paymentmanagement { width:98%; }
+#paymentmanagementtop { margin-top:10px; width:100%; height:50px; }
+#paymentmanagementtop table { width:510px; float:left; }
+#paymentmanagementtop table tr { height:35px; }
+#submits { margin:0px 20px 0px 0px; }
+
+#tablecontent { width:100%; }
+.tablecontentsub { float:left; margin:20px 0px 0px 0px; }
+.tablecontentpage { float:right; margin-top:12px; }
+.ptmoneysum { margin-left:30px; }
+.ptmoneysum me { font-size:16px; color:#F05648; font-weight:700; }
+
+table, tr, td { border:0px solid #000;; }

@@ -1,0 +1,7 @@
+
+#basicsettingsindex { width:98%; }
+#basicsettingsindex table { width:100%; border-collapse:collapse; }
+#basicsettingsindex table tr { height:60px; }
+#basicsettingsindex table tr td { border-bottom:1px dotted #CBE9F3; width:400px;}
+#basicsettingsindex tr:hover { background:#F4FAFF !important; }
+#basicsettingsindex tr:hover .tds{ color:#000; }

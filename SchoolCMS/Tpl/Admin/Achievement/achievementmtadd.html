@@ -1,0 +1,43 @@
+<html>
+<head>
+	<meta http-equiv='content-type' content='text/html;charset=utf-8' />
+	<title>内蒙古科技大学教务处管理系统</title>
+	<import type='js' file='jquery' basepath='__ROOT__/Static/Js/Common' />
+	<import type='js' file='common' basepath='__ROOT__/Static/Js/Common' />
+	<import type='js' file='WdatePicker' basepath='__ROOT__/Static/Js/Common/My97DatePicker' />
+	<import type='css' file='common' basepath='__ROOT__/Static/Css/Common' />
+	<import type='js' file='achievementmtadd' basepath='__ROOT__/Static/Js/Admin' />
+	<import type='css' file='achievementmtadd' basepath='__ROOT__/Static/Css/Admin' />
+	<script type='text/javascript' >
+		var SITE_PATH = '<!--{$SITE_ROOT}-->';  //定义项目所在绝对地址
+		var tplroot = '__ROOT__/admin.php';  //定义js变量（项目根目录）
+		var root = '__ROOT__';  //定义js变量（网站根目录）
+	</script>
+</head>
+<body>
+<div id="achievementmtadd">
+	<form action="<!--{$url}-->" method="post" return false>
+		<table>
+			<tr>
+				<td>姓名：<!--{$sname}--></td>
+			</tr>
+			<tr>
+				<td><!--{$srid}--></td>
+			</tr>
+			<tr>
+				<td><!--{$atcid}--></td>
+			</tr>
+			<tr>
+				<td><!--{$cmid}--></td>
+			</tr>
+			<tr>
+				<td><!--{$atfraction}--></td>
+			</tr>
+		</table>
+		<input type="hidden" name="sid" value="<!--{$sid}-->" />
+		<input type="hidden" name="atid" value="<!--{$atid}-->" />
+		<input type="submit" class="adminsubmit" id="submit" name="submit" title="提交" value="提交" />
+	</form>
+</div>
+</body>
+</html>

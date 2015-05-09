@@ -1,0 +1,5 @@
+
+#studentinterface { width:98%; }
+#studentinterface table { width:100%; }
+#studentinterface table tr { height:60px; }
+#studentinterface table tr td { border-bottom:1px dotted #CBE9F3; width:400px;}

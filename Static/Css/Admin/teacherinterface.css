@@ -1,0 +1,5 @@
+
+#teacherinterface { width:98%; }
+#teacherinterface table { width:100%; }
+#teacherinterface table tr { height:60px; }
+#teacherinterface table tr td { border-bottom:1px dotted #CBE9F3; width:400px;}

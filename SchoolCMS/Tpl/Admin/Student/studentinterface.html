@@ -1,0 +1,52 @@
+<html>
+<head>
+	<meta http-equiv='content-type' content='text/html;charset=utf-8' />
+	<title>内蒙古科技大学教务处管理系统</title>
+	<import type='js' file='jquery' basepath='__ROOT__/Static/Js/Common' />
+	<import type='js' file='common' basepath='__ROOT__/Static/Js/Common' />
+	<import type='js' file='WdatePicker' basepath='__ROOT__/Static/Js/Common/My97DatePicker' />
+	<import type='css' file='common' basepath='__ROOT__/Static/Css/Common' />
+	<import type='js' file='studentinterface' basepath='__ROOT__/Static/Js/Admin' />
+	<import type='css' file='studentinterface' basepath='__ROOT__/Static/Css/Admin' />
+	<script type='text/javascript' >
+		var SITE_PATH = '<!--{$SITE_ROOT}-->';  //定义项目所在绝对地址
+		var tplroot = '__ROOT__/admin.php';  //定义js变量（项目根目录）
+		var root = '__ROOT__';  //定义js变量（网站根目录）
+	</script>
+</head>
+<body>
+<div id="studentinterface">
+	<form action="<!--{$url}-->" method="post" return false>
+		<table>
+			<tr>
+				<td><!--{$srid}--></td>
+				<td><!--{$sname}--></td>
+			</tr>
+			<tr>
+				<td><!--{$smobile}--></td>
+				<td><!--{$shomephone}--></td>
+			</tr>
+			<tr>
+				<td><!--{$sbirthdate}--></td>
+				<td><!--{$ssex}--></td>
+			</tr>
+			<tr>
+				<td><!--{$cyid}--></td>
+				<td><!--{$cid}--></td>
+			</tr>
+			<tr>
+				<td><!--{$seffectivetime}--></td>
+				<td><!--{$stheendtime}--></td>
+			</tr>
+			<tr id="studentformdisplay">
+				<td><!--{$ptmoney}--></td>
+				<td><!--{$ptremarks}--></td>
+			</tr>
+		</table>
+		<input type="hidden" name="sid" value="<!--{$sid}-->" />
+		<input type="hidden" id="studentformtype" value="<!--{$type}-->" />
+		<input type="submit" class="adminsubmit" id="submit" name="submit" title="提交" value="提交" />
+	</form>
+</div>
+</body>
+</html>

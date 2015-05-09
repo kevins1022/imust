@@ -1,0 +1,67 @@
+<html>
+<head>
+	<meta http-equiv='content-type' content='text/html;charset=utf-8' />
+	<title>内蒙古科技大学教务处管理系统</title>
+	<import type='js' file='jquery' basepath='__ROOT__/Static/Js/Common' />
+	<import type='js' file='common' basepath='__ROOT__/Static/Js/Common' />
+	<import type='js' file='WdatePicker' basepath='__ROOT__/Static/Js/Common/My97DatePicker' />
+	<import type='css' file='common' basepath='__ROOT__/Static/Css/Common' />
+	<import type='js' file='basicsettingsindex' basepath='__ROOT__/Static/Js/Admin' />
+	<import type='css' file='basicsettingsindex' basepath='__ROOT__/Static/Css/Admin' />
+	<script type='text/javascript' >
+		var SITE_PATH = '<!--{$SITE_ROOT}-->';  //定义项目所在绝对地址
+		var tplroot = '__ROOT__/admin.php';  //定义js变量（项目根目录）
+		var root = '__ROOT__';  //定义js变量（网站根目录）
+	</script>
+</head>
+<body>
+<div id="basicsettingsindex">
+	<form action="./Index" method="post" return false>
+		<table border="0" cellpadding="0" cellspacing="0">
+			<tr>
+				<td><!--{$semester}--></td>
+				<td class="tds">学期分类必须设置、先到 分类管理>>学期分类管理 页面新增</td>
+			</tr>
+			<tr>
+				<td><!--{$modelcsv}--></td>
+				<td class="tds">如果您CSV导出数据是乱码的情况下、在这里换一个编码即可</td>
+			</tr>
+			<tr>
+				<td><!--{$modelpage}--></td>
+				<td class="tds">后台分页显示参数配置</td>
+			</tr>
+			<tr>
+				<td><!--{$studentpage}--></td>
+				<td class="tds">学员管理页面、数据显示条数、如果为0 则使用系统默认:8条</td>
+			</tr>
+			<tr>
+				<td><!--{$achievementpage}--></td>
+				<td class="tds">学员管理>学员成绩管理页面、数据显示条数、如果为0 则使用系统默认:8条</td>
+			</tr>
+			<tr>
+				<td><!--{$teacherpage}--></td>
+				<td class="tds">教师管理页面、数据显示条数、如果为0 则使用系统默认:8条</td>
+			</tr>
+			<tr>
+				<td><!--{$teachercurriculumpage}--></td>
+				<td class="tds">教师管理>教师课程管理页面、数据显示条数、如果为0 则使用系统默认:8条</td>
+			</tr>
+			<tr>
+				<td><!--{$financepage}--></td>
+				<td class="tds">财务管理>缴费管理页面、数据显示条数、如果为0 则使用系统默认:8条</td>
+			</tr>
+			<tr>
+				<td><!--{$financialdetailspage}--></td>
+				<td class="tds">财务管理>缴费明细页面、数据显示条数、如果为0 则使用系统默认:8条</td>
+			</tr>
+			<tr>
+				<td><!--{$poor}--><!--{$cypoor}--><!--{$medium}--><!--{$good}--><!--{$excellent}--></td>
+				<td class="tds">输入1至3位的纯数字、成绩类型的最大值、如果为0，则使用系统默认:(20:差，40:较差，60:中，80:良，100:优[不封顶])</td>
+			</tr>
+			
+		</table>
+		<input type="submit" class="adminsubmit" id="submit" name="submit" title="提交" value="提交" />
+	</form>
+</div>
+</body>
+</html>

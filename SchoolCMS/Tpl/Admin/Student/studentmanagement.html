@@ -1,0 +1,83 @@
+<html>
+<head>
+	<meta http-equiv='content-type' content='text/html;charset=utf-8' />
+	<title>内蒙古科技大学教务处管理系统</title>
+	<import type='js' file='jquery' basepath='__ROOT__/Static/Js/Common' />
+	<import type='js' file='common' basepath='__ROOT__/Static/Js/Common' />
+	<import type='js' file='WdatePicker' basepath='__ROOT__/Static/Js/Common/My97DatePicker' />
+	<import type='css' file='common' basepath='__ROOT__/Static/Css/Common' />
+	<import type='js' file='studentmanagement' basepath='__ROOT__/Static/Js/Admin' />
+	<import type='css' file='studentmanagement' basepath='__ROOT__/Static/Css/Admin' />
+	<script type='text/javascript' >
+		var SITE_PATH = '<!--{$SITE_ROOT}-->';  //定义项目所在绝对地址
+		var tplroot = '__ROOT__/admin.php';  //定义js变量（项目根目录）
+		var root = '__ROOT__';  //定义js变量（网站根目录）
+	</script>
+</head>
+<body>
+<div id="studentmanagement">
+	<div id="studentmanagementtop">
+		<form action="./StudentManagement" method="post" return false>
+			<table>
+				<tr>
+					<td>
+						<!--{$sname}-->
+					</td>
+					<td>
+						<!--{$cid}-->
+					</td>
+					<td>
+						<!--{$stuitionstatu}-->
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<!--{$ssex}-->
+					</td>
+					<td>
+						<!--{$sage}--><!--{$sages}-->
+					</td>
+					<td>
+						<!--{$ssreatedate}-->
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<!--{$cyid}-->
+					</td>
+					<td>
+						<!--{$sbirthdate}-->
+					</td>
+					<td>
+						<!--{$seffectivetime}-->
+					</td>
+				</tr>
+				
+			</table>
+			<div id="submit">
+				<a href="./StudentManagement" title="撤销">
+					<span class="adminsubmits adminsubpd">撤销</span>
+				</a>
+				<br />
+				<input type="submit" class="adminsubmit" id="submits" title="查询" value="查询" />
+			</div>
+		</form>
+	</div>
+	<div id="tablecontent">
+		<form action="./Index" method="post" return false>
+			<!--{$gridtable}-->
+			<div class="tablecontentsub">
+				<input type="submit" class="adminsubmits" name="submitdelete" id="submitdelete" title="删除"  value="删除" />
+				<a href="StudentAddInfo" title="新增学员">
+					<span class="adminsubmit studentaddsub adminsubpd">新增学员</span>
+				</a>
+				<span class="adminsubmit studentaddsub adminsubpd" id="subcsvexport" title="导出CSV文件">导出CSV</span>
+			</div>
+			<div class="tablecontentpage"><!--{$pageing}--></div>
+		</form>
+	</div>
+	<!-- CSV代码 --><!--{$subcsvexport}-->
+	
+</div>
+</body>
+</html>

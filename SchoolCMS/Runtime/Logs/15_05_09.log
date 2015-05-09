@@ -1,0 +1,139 @@
+[ 2015-05-09T23:02:51+08:00 ] 127.0.0.1 /imust/admin.php/Common/GetVerify
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000228s ]
+
+[ 2015-05-09T23:02:51+08:00 ] 127.0.0.1 /imust/admin.php/Common/GetVerify
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000225s ]
+
+[ 2015-05-09T23:30:11+08:00 ] 127.0.0.1 /imust/admin.php/Student/TurnAjax.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='ZYDZB') b where table_name='ZYDZB' and a.column_name=b.column_name(+) [ RunTime:0.000168s ]
+NOTIC: [8] Undefined index: column_name /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 219 行.
+NOTIC: [8] Undefined index: column_name /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 220 行.
+NOTIC: [8] Undefined index: data_type /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 221 行.
+NOTIC: [8] Undefined index: notnull /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 222 行.
+NOTIC: [8] Undefined index: data_default /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 223 行.
+NOTIC: [8] Undefined index: pk /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 224 行.
+NOTIC: [8] Undefined index: pk /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 225 行.
+NOTIC: [8] Undefined index: column_name /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 219 行.
+NOTIC: [8] Undefined index: column_name /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 220 行.
+NOTIC: [8] Undefined index: data_type /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 221 行.
+NOTIC: [8] Undefined index: notnull /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 222 行.
+NOTIC: [8] Undefined index: data_default /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 223 行.
+NOTIC: [8] Undefined index: pk /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 224 行.
+NOTIC: [8] Undefined index: pk /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 225 行.
+NOTIC: [8] Undefined index: column_name /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 219 行.
+NOTIC: [8] Undefined index: column_name /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 220 行.
+NOTIC: [8] Undefined index: data_type /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 221 行.
+NOTIC: [8] Undefined index: notnull /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 222 行.
+NOTIC: [8] Undefined index: data_default /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 223 行.
+NOTIC: [8] Undefined index: pk /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 224 行.
+NOTIC: [8] Undefined index: pk /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 225 行.
+NOTIC: [8] Undefined index: column_name /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 219 行.
+NOTIC: [8] Undefined index: column_name /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 220 行.
+NOTIC: [8] Undefined index: data_type /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 221 行.
+NOTIC: [8] Undefined index: notnull /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 222 行.
+NOTIC: [8] Undefined index: data_default /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 223 行.
+NOTIC: [8] Undefined index: pk /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 224 行.
+NOTIC: [8] Undefined index: pk /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 225 行.
+NOTIC: [8] Undefined index: column_name /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 219 行.
+NOTIC: [8] Undefined index: column_name /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 220 行.
+NOTIC: [8] Undefined index: data_type /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 221 行.
+NOTIC: [8] Undefined index: notnull /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 222 行.
+NOTIC: [8] Undefined index: data_default /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 223 行.
+NOTIC: [8] Undefined index: pk /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 224 行.
+NOTIC: [8] Undefined index: pk /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 225 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   ZYM FROM zydzb WHERE ( xsm='能环学院' )) thinkphp )  [ RunTime:0.000111s ]
+
+[ 2015-05-09T23:30:21+08:00 ] 127.0.0.1 /imust/admin.php/Student/TurnAjax.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000260s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='ZYDZB') b where table_name='ZYDZB' and a.column_name=b.column_name(+) [ RunTime:0.000150s ]
+NOTIC: [8] Undefined index: column_name /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 219 行.
+NOTIC: [8] Undefined index: column_name /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 220 行.
+NOTIC: [8] Undefined index: data_type /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 221 行.
+NOTIC: [8] Undefined index: notnull /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 222 行.
+NOTIC: [8] Undefined index: data_default /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 223 行.
+NOTIC: [8] Undefined index: pk /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 224 行.
+NOTIC: [8] Undefined index: pk /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 225 行.
+NOTIC: [8] Undefined index: column_name /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 219 行.
+NOTIC: [8] Undefined index: column_name /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 220 行.
+NOTIC: [8] Undefined index: data_type /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 221 行.
+NOTIC: [8] Undefined index: notnull /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 222 行.
+NOTIC: [8] Undefined index: data_default /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 223 行.
+NOTIC: [8] Undefined index: pk /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 224 行.
+NOTIC: [8] Undefined index: pk /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 225 行.
+NOTIC: [8] Undefined index: column_name /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 219 行.
+NOTIC: [8] Undefined index: column_name /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 220 行.
+NOTIC: [8] Undefined index: data_type /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 221 行.
+NOTIC: [8] Undefined index: notnull /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 222 行.
+NOTIC: [8] Undefined index: data_default /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 223 行.
+NOTIC: [8] Undefined index: pk /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 224 行.
+NOTIC: [8] Undefined index: pk /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 225 行.
+NOTIC: [8] Undefined index: column_name /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 219 行.
+NOTIC: [8] Undefined index: column_name /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 220 行.
+NOTIC: [8] Undefined index: data_type /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 221 行.
+NOTIC: [8] Undefined index: notnull /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 222 行.
+NOTIC: [8] Undefined index: data_default /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 223 行.
+NOTIC: [8] Undefined index: pk /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 224 行.
+NOTIC: [8] Undefined index: pk /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 225 行.
+NOTIC: [8] Undefined index: column_name /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 219 行.
+NOTIC: [8] Undefined index: column_name /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 220 行.
+NOTIC: [8] Undefined index: data_type /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 221 行.
+NOTIC: [8] Undefined index: notnull /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 222 行.
+NOTIC: [8] Undefined index: data_default /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 223 行.
+NOTIC: [8] Undefined index: pk /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 224 行.
+NOTIC: [8] Undefined index: pk /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 225 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   ZYM FROM zydzb WHERE ( xsm='经管学院' )) thinkphp )  [ RunTime:0.000133s ]
+
+[ 2015-05-09T23:31:28+08:00 ] 127.0.0.1 /imust/admin.php/Student/TurnAjax.html
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001088s ]
+SQL: select a.column_name,data_type,decode(nullable,'Y',0,1) notnull,data_default,decode(a.column_name,b.column_name,1,0) pk from user_tab_columns a,(select column_name from user_constraints c,user_cons_columns col where c.constraint_name=col.constraint_name and c.constraint_type='P'and c.table_name='ZYDZB') b where table_name='ZYDZB' and a.column_name=b.column_name(+) [ RunTime:0.000372s ]
+NOTIC: [8] Undefined index: column_name /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 219 行.
+NOTIC: [8] Undefined index: column_name /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 220 行.
+NOTIC: [8] Undefined index: data_type /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 221 行.
+NOTIC: [8] Undefined index: notnull /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 222 行.
+NOTIC: [8] Undefined index: data_default /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 223 行.
+NOTIC: [8] Undefined index: pk /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 224 行.
+NOTIC: [8] Undefined index: pk /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 225 行.
+NOTIC: [8] Undefined index: column_name /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 219 行.
+NOTIC: [8] Undefined index: column_name /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 220 行.
+NOTIC: [8] Undefined index: data_type /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 221 行.
+NOTIC: [8] Undefined index: notnull /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 222 行.
+NOTIC: [8] Undefined index: data_default /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 223 行.
+NOTIC: [8] Undefined index: pk /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 224 行.
+NOTIC: [8] Undefined index: pk /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 225 行.
+NOTIC: [8] Undefined index: column_name /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 219 行.
+NOTIC: [8] Undefined index: column_name /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 220 行.
+NOTIC: [8] Undefined index: data_type /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 221 行.
+NOTIC: [8] Undefined index: notnull /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 222 行.
+NOTIC: [8] Undefined index: data_default /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 223 行.
+NOTIC: [8] Undefined index: pk /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 224 行.
+NOTIC: [8] Undefined index: pk /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 225 行.
+NOTIC: [8] Undefined index: column_name /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 219 行.
+NOTIC: [8] Undefined index: column_name /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 220 行.
+NOTIC: [8] Undefined index: data_type /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 221 行.
+NOTIC: [8] Undefined index: notnull /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 222 行.
+NOTIC: [8] Undefined index: data_default /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 223 行.
+NOTIC: [8] Undefined index: pk /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 224 行.
+NOTIC: [8] Undefined index: pk /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 225 行.
+NOTIC: [8] Undefined index: column_name /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 219 行.
+NOTIC: [8] Undefined index: column_name /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 220 行.
+NOTIC: [8] Undefined index: data_type /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 221 行.
+NOTIC: [8] Undefined index: notnull /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 222 行.
+NOTIC: [8] Undefined index: data_default /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 223 行.
+NOTIC: [8] Undefined index: pk /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 224 行.
+NOTIC: [8] Undefined index: pk /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Extend/Driver/Db/DbOracle.class.php 第 225 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Applications/XAMPP/xamppfiles/htdocs/imust/ThinkPHP/Lib/Core/Db.class.php 第 604 行.
+SQL: SELECT * FROM (SELECT thinkphp.*, rownum AS numrow FROM (SELECT   ZYM FROM zydzb WHERE ( xsm='建工学院' )) thinkphp )  [ RunTime:0.000495s ]
+

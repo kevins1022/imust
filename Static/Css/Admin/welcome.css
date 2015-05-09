@@ -1,0 +1,15 @@
+.welcome { padding:20px 0px 0px 10px; }
+
+.h_a { padding:5px 9px; border-bottom:2px solid #D7EFF8; color:#666666; font-weight:700; background:#EAF8FD; font-size:12px; }
+
+.home_info { padding:5px 10px 20px; color:#666; }
+
+.home_info li { line-height:25px; zoom:1;  }
+.home_info li em { float:left; width:100px; font-style:normal; }
+
+.home_info li span { display:block; overflow:hidden; }
+
+.schoolcmsnew { color:#2D64B3; }
+.schoolcmsnew:hover { color:#FF4400; }
+
+

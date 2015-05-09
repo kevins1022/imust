@@ -1,0 +1,39 @@
+<?php
+
+/*
+	input text框常量定义
+*/
+//公共使用
+define('MODEL_INPUTTEXT_AIR', '不能为空！');
+define('MODEL_INPUTTEXT_OK', '格式正确！');
+define('MODEL_INPUTTEXT_LENGTHSMALL', '必须大于');
+define('MODEL_INPUTTEXT_LENGTHARGE', '不能大于');
+define('MODEL_INPUTTEXT_LENGTEQUIL', '必须等于');
+define('MODEL_INPUTTEXT_LENGTSTR', '个字符！');
+
+//手机验证
+define('MODEL_INPUTTEXT_MOBILEOK', '手机格式正确！');
+define('MODEL_INPUTTEXT_MOBILENO', '手机格式错误！');
+
+//座机验证
+define('MODEL_INPUTTEXT_LANDLINEOK', '座机格式正确！');
+define('MODEL_INPUTTEXT_LANDLINENO', '座机格式错误！');
+
+//邮箱验证
+define('MODEL_INPUTTEXT_MAILOK', '邮箱格式正确！');
+define('MODEL_INPUTTEXT_MAILNO', '邮箱格式错误！');
+
+//URL验证
+define('MODEL_INPUTTEXT_URLOK', 'url格式正确！');
+define('MODEL_INPUTTEXT_URLNO', 'url格式错误！');
+
+//IP验证
+define('MODEL_INPUTTEXT_IPOK', 'ip格式正确！');
+define('MODEL_INPUTTEXT_IPNO', 'ip格式错误！');
+
+//纯数字验证
+define('MODEL_INPUTTEXT_DIGITALNO', '必须为纯数字！');
+
+//验证价格
+define('MODEL_INPUTTEXT_PRICENO', '价格格式错误！');
+
